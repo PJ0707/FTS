@@ -46,7 +46,7 @@ if(isset($_POST['Login']))
 
 </head>
 <body>
-	<a href="main.php"><button style="float: right; "class="w3-button w3-red w3-round-large">Go back >></button></a>
+	<a href="index.php"><button style="float: right; "class="w3-button w3-red w3-round-large">Go back >></button></a>
 <div class="login-box" action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>">
 <form method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>">
 <h2>Student Login</h2>
